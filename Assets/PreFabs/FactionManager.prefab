@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6904347529968856015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6904347529968856013}
+  - component: {fileID: 6904347529968856014}
+  m_Layer: 0
+  m_Name: FactionManager
+  m_TagString: FactionManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6904347529968856013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904347529968856015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.8899999, y: 1.5210328, z: 8.515812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6904347529968856014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904347529968856015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e149aee983ca59948a2fb1c5e83b9a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factionLogo: {fileID: 0}
+  empireLogo: {fileID: 2800000, guid: 7bf86ba466db681408901a109ac1662c, type: 3}
+  unionLogo: {fileID: 2800000, guid: d07e8124f44a48549bbd7794dbe7afbf, type: 3}
+  cultLogo: {fileID: 2800000, guid: 1815f5a68162bc046900aca47ec109d1, type: 3}
+  enemyEmpireMachineGunner: {fileID: 6150253976965306666, guid: ecd50240adddb7248b095aef55a1eb55,
+    type: 3}
+  enemyUnionMachineGunner: {fileID: 5612879956547613494, guid: 143e5876db238c24aa33e81f4e7c3a5d,
+    type: 3}
+  enemyCultMachineGunner: {fileID: 6763605292972955820, guid: c05a32f42691ead4d8350c96777cc9f1,
+    type: 3}
+  playerEmpireMachineGunner: {fileID: 4650466902225630554, guid: 40f6e2d4ecc5ad44098753b95dab5638,
+    type: 3}
+  playerUnionMachineGunner: {fileID: 8947055599685728417, guid: c5f45752127f76d42b574efa5993b8e7,
+    type: 3}
+  playerCultMachineGunner: {fileID: 585142402934173637, guid: f2a608284bc8a944296d63ee5350c3ae,
+    type: 3}
+  enemyEmpireBazooka: {fileID: 1048105437042365472, guid: 5f79a874ec31eaf49b03c96d0a4f4d69,
+    type: 3}
+  enemyUnionBazooka: {fileID: 5227608722430424465, guid: dfeb0a3f712b2e64bab9b789d6791be4,
+    type: 3}
+  enemyCultBazooka: {fileID: 146353576333402396, guid: 9cae82059d65fb245be95692926bff46,
+    type: 3}
+  playerEmpireBazooka: {fileID: 550972222352056659, guid: 097bf5c8410d80b4ea8ad79a6e57bda1,
+    type: 3}
+  playerUnionBazooka: {fileID: 1870770591423207144, guid: 04cb7dae42156264e8312da3b2d5d249,
+    type: 3}
+  playerCultBazooka: {fileID: 3474750111760261384, guid: 11624bb68d30ceb40b1e75c5528d55a1,
+    type: 3}
+  enemyEmpireJeep: {fileID: 8255179625005177210, guid: 1685028d565dc0c4baaea37a3852a34a,
+    type: 3}
+  enemyUnionJeep: {fileID: 8255179625005177210, guid: 1685028d565dc0c4baaea37a3852a34a,
+    type: 3}
+  enemyCultJeep: {fileID: 8255179625005177210, guid: 1685028d565dc0c4baaea37a3852a34a,
+    type: 3}
+  playerEmpireJeep: {fileID: 8255179625005177210, guid: aee96bd1104555d489001d5c782a69f1,
+    type: 3}
+  playerUnionJeep: {fileID: 8255179625005177210, guid: aee96bd1104555d489001d5c782a69f1,
+    type: 3}
+  playerCultJeep: {fileID: 8255179625005177210, guid: aee96bd1104555d489001d5c782a69f1,
+    type: 3}
+  enemyEmpireLightTank: {fileID: 128896319082165939, guid: 59e874c61c57bdc43946d4faa06b2283,
+    type: 3}
+  enemyUnionLightTank: {fileID: 7035038873495262576, guid: 5ca3f0529d0be2a4787c67ce9b054943,
+    type: 3}
+  enemyCultLightTank: {fileID: 6601133669342559325, guid: 0983be23def43c148a959370e6982214,
+    type: 3}
+  playerEmpireLightTank: {fileID: 3722583405685237161, guid: 592610d879c3178439e8fd419ee7a788,
+    type: 3}
+  playerUnionLightTank: {fileID: 3854621732671748046, guid: eaa7a076e22df2b46b287d9ff5606caf,
+    type: 3}
+  playerCultLightTank: {fileID: 264387301868783127, guid: 06e3635b9d56d8844a26cb0fa10dcabc,
+    type: 3}
+  enemyEmpireHeavyTank: {fileID: 7243756367767883999, guid: 15f107804f9fc9a4b895bc0723929a9e,
+    type: 3}
+  enemyUnionHeavyTank: {fileID: 7134090525118009475, guid: f1ff1e60f1c07184096306e793c346dd,
+    type: 3}
+  enemyCultHeavyTank: {fileID: 8971666409739349239, guid: 25f5388c92f32374b8465db7261c040c,
+    type: 3}
+  playerEmpireHeavyTank: {fileID: 4746290511660141970, guid: 393e75ecf7e9da34e821c6fb671394dc,
+    type: 3}
+  playerUnionHeavyTank: {fileID: 6215278123032980381, guid: 2c0f3b85bc784154185641c4e55f6c93,
+    type: 3}
+  playerCultHeavyTank: {fileID: 8982503810488624998, guid: 60bce71e8f6c73f43b8fe2568ad98d04,
+    type: 3}
+  playerEmpireGatherer: {fileID: 5924403557721396954, guid: 3b087b595adc1b14eaed44fbcb06f50b,
+    type: 3}
+  playerUnionGatherer: {fileID: 5924403557721396954, guid: 3b087b595adc1b14eaed44fbcb06f50b,
+    type: 3}
+  playerCultGatherer: {fileID: 5924403557721396954, guid: 3b087b595adc1b14eaed44fbcb06f50b,
+    type: 3}
+  machineGunnerButtonObject: {fileID: 11400000, guid: 0d8525f0c85efb94b89e8fdbb026cda8,
+    type: 2}
+  bazookaButtonObject: {fileID: 11400000, guid: dd1701230953d8b43a188f37d601c496,
+    type: 2}
+  jeepButtonObject: {fileID: 11400000, guid: bb44f6ee6da2f66488877269178c712e, type: 2}
+  gathererButtonObject: {fileID: 11400000, guid: 55177507a6936d5458a600f293222ef6,
+    type: 2}
+  lightTankButtonObject: {fileID: 11400000, guid: 8c1e9eb9da339c2439da172485849af8,
+    type: 2}
+  heavyTankButtonObject: {fileID: 11400000, guid: 110ad141c78d03f4bbbf539997f0bd11,
+    type: 2}
